@@ -19,6 +19,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 36, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
+h1 {
+  font-size: 1.75rem;
+}
+
+/* line 40, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
+h5 {
+  font-size: 0.9375rem;
+}
+
+/* line 44, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 p {
   color: #7280a7;
   display: inline;
@@ -27,14 +37,14 @@ p {
 }
 
 /* Image Section */
-/* line 46, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
+/* line 54, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .container {
   border-radius: 20px;
   width: 400px;
   box-shadow: 0px 2px 16px 2px rgba(0, 0, 0, 0.2);
 }
 
-/* line 52, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
+/* line 60, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .card-img {
   display: block;
   width: 100%;
@@ -43,7 +53,7 @@ p {
 }
 
 /* Card Body  */
-/* line 61, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
+/* line 69, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .card-body__top {
   display: flex;
   flex-direction: column;
@@ -52,13 +62,13 @@ p {
   margin: 15% 6% 5% 6%;
 }
 
-/* line 69, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
+/* line 77, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .card-heading {
   margin-bottom: 7%;
 }
 
 /* Card Middle Section */
-/* line 75, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
+/* line 83, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .card-body__middle {
   background-color: #f5f7ff;
   display: flex;
@@ -70,13 +80,13 @@ p {
   justify-content: space-around;
 }
 
-/* line 86, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
+/* line 94, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .icon-img {
   flex: 1 1 auto;
   width: 10%;
 }
 
-/* line 92, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
+/* line 100, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .subscription-details {
   background-color: #f5f7ff;
   display: flex;
@@ -86,12 +96,12 @@ p {
   justify-content: space-around;
 }
 
-/* line 101, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
+/* line 109, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .bright-blue-text {
   flex: 3 1 auto;
 }
 
-/* line 107, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
+/* line 114, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .bright-blue-underline-text {
   color: #3829e0;
   text-decoration: underline;
@@ -100,27 +110,27 @@ p {
   cursor: pointer;
 }
 
-/* line 115, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
+/* line 122, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .bright-blue-underline-text:hover {
   text-decoration: none;
   color: #8379ec;
 }
 
 /* Card Bottom Section */
-/* line 122, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
+/* line 129, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .card-body__bottom {
   display: flex;
   flex-direction: column;
   margin: 10% 6%;
 }
 
-/* line 128, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
+/* line 135, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .button-text {
   font-size: 13px;
   font-weight: 900;
 }
 
-/* line 133, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
+/* line 140, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .bright-blue-button {
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
@@ -132,7 +142,7 @@ p {
   text-decoration: none;
 }
 
-/* line 144, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
+/* line 151, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .bright-blue-button:hover {
   background: #8379ec;
   text-decoration: none;
@@ -140,12 +150,12 @@ p {
   box-shadow: 0px 7px 7px #b0b0b0;
 }
 
-/* line 151, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
+/* line 158, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .light-color-button {
   color: #7280a7;
 }
 
-/* line 158, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
+/* line 163, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 footer {
   position: fixed;
   display: flex;
@@ -157,12 +167,12 @@ footer {
   font-size: 1rem;
 }
 
-/* line 170, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
+/* line 175, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 footer a {
   color: #3829e0;
 }
 
-/* line 174, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
+/* line 179, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 footer a:hover {
   color: #8379ec;
 }
