@@ -166,11 +166,21 @@ p {
 
 
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
+footer {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  bottom: 0;
+  justify-content: center;
+  gap: 15px;
+  font-size: 1rem;
 }
 
-.attribution a {
-  color: hsl(228, 45%, 44%);
+footer a {
+  color: var(--color-bright-blue);
+}
+
+footer a:hover {
+  color: var(--color-hover-blue);
 }
