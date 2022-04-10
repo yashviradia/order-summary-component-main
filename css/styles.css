@@ -1,65 +1,40 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
-
-/* CSS Varibles */
-
-:root {
-  /* Colors */
-
-  /* Primary */
-
-  --color-pale-blue: hsl(225, 100%, 94%);
-  --color-bright-blue: hsl(245, 75%, 52%);
-  --color-hover-blue: hsl(245, 75%, 70%);
-
-  /* Neutral */
-
-  --color-very-pale-blue: hsl(225, 100%, 98%);
-  --color-desaturated-blue: hsl(224, 23%, 55%);
-  --color-dark-blue: hsl(223, 47%, 23%);
-}
-
-/*
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-} */
-
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+/* line 20, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 body {
   min-height: 100vh;
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   font-size: 1.125rem;
-  background-image: url('images/pattern-background-desktop.svg');
+  background-image: url("images/pattern-background-desktop.svg");
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
+/* line 31, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 h1, h2, h3, h4, h5, h6 {
-  color: var(--color-dark-blue);
+  color: #1f2f56;
   font-weight: 900;
 }
 
+/* line 36, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 p {
-  color: var(--color-desaturated-blue);
+  color: #7280a7;
   display: inline;
   font-weight: 500;
   font-size: 0.938rem;
 }
 
-
 /* Image Section */
-
+/* line 46, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .container {
   border-radius: 20px;
   width: 400px;
   box-shadow: 0px 2px 16px 2px rgba(0, 0, 0, 0.2);
 }
 
+/* line 52, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .card-img {
   display: block;
   width: 100%;
@@ -68,7 +43,7 @@ p {
 }
 
 /* Card Body  */
-
+/* line 61, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .card-body__top {
   display: flex;
   flex-direction: column;
@@ -77,14 +52,15 @@ p {
   margin: 15% 6% 5% 6%;
 }
 
+/* line 69, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .card-heading {
   margin-bottom: 7%;
 }
 
-
 /* Card Middle Section */
+/* line 75, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .card-body__middle {
-  background-color: var(--color-very-pale-blue);
+  background-color: #f5f7ff;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -94,14 +70,15 @@ p {
   justify-content: space-around;
 }
 
+/* line 86, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .icon-img {
   flex: 1 1 auto;
   width: 10%;
 }
 
-
+/* line 92, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .subscription-details {
-  background-color: var(--color-very-pale-blue);
+  background-color: #f5f7ff;
   display: flex;
   flex: 1 1 auto;
   flex-direction: column;
@@ -109,63 +86,66 @@ p {
   justify-content: space-around;
 }
 
+/* line 101, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .bright-blue-text {
   flex: 3 1 auto;
-
 }
 
-
+/* line 107, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .bright-blue-underline-text {
-  color: var(--color-bright-blue);
+  color: #3829e0;
   text-decoration: underline;
   font-size: 14px;
   font-weight: 700;
   cursor: pointer;
 }
 
+/* line 115, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .bright-blue-underline-text:hover {
   text-decoration: none;
-  color: var(--color-hover-blue);
+  color: #8379ec;
 }
 
 /* Card Bottom Section */
-
+/* line 122, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .card-body__bottom {
   display: flex;
   flex-direction: column;
   margin: 10% 6%;
 }
 
+/* line 128, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .button-text {
   font-size: 13px;
   font-weight: 900;
 }
 
+/* line 133, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .bright-blue-button {
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
   border-radius: 10px;
   color: #fff;
   font-size: 14px;
-  background: var(--color-bright-blue);
+  background: #3829e0;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
+/* line 144, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .bright-blue-button:hover {
-  background: var(--color-hover-blue);
+  background: #8379ec;
   text-decoration: none;
   color: #fff;
   box-shadow: 0px 7px 7px #b0b0b0;
 }
 
+/* line 151, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 .light-color-button {
-  color: var(--color-desaturated-blue);
+  color: #7280a7;
 }
 
-
-
-
+/* line 158, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 footer {
   position: fixed;
   display: flex;
@@ -177,10 +157,14 @@ footer {
   font-size: 1rem;
 }
 
+/* line 170, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 footer a {
-  color: var(--color-bright-blue);
+  color: #3829e0;
 }
 
+/* line 174, ../../../../../Users/yashviradia/IdeaProjects/order-summary-component-main/sass/styles.scss */
 footer a:hover {
-  color: var(--color-hover-blue);
+  color: #8379ec;
 }
+
+/*# sourceMappingURL=styles.css.map */
