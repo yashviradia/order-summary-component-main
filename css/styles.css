@@ -1,22 +1,169 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
+/* CSS Varibles */
 
+:root {
+  /* Colors */
+
+  /* Primary */
+
+  --color-pale-blue: hsl(225, 100%, 94%);
+  --color-bright-blue: hsl(245, 75%, 52%);
+  --color-hover-blue: hsl(245, 75%, 70%);
+
+  /* Neutral */
+
+  --color-very-pale-blue: hsl(225, 100%, 98%);
+  --color-desaturated-blue: hsl(224, 23%, 55%);
+  --color-dark-blue: hsl(223, 47%, 23%);
+}
+
+/*
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+} */
 
 body {
   min-height: 100vh;
-  font-family: "Outfit";
-  font-family: 1.125rem;
-  background-image: url("images/pattern-background-desktop.svg");
-  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1.125rem;
+  background-image: url('images/pattern-background-desktop.svg');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-dark-blue);
+  font-weight: 900;
+}
+
+p {
+  color: var(--color-desaturated-blue);
+  display: inline;
+  font-weight: 500;
+  font-size: 0.938rem;
+}
+
+
+/* Image Section */
+
+.container {
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: 0px 2px 16px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+/* Card Body  */
+
+.card-body__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  margin: 15% 6% 5% 6%;
+}
+
+.card-heading {
+  margin-bottom: 7%;
+}
+
+
+/* Card Middle Section */
+.card-body__middle {
+  background-color: var(--color-very-pale-blue);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  padding: 5% 6%;
+  margin: 10% 6%;
+  justify-content: space-around;
+}
+
+.icon-img {
+  flex: 1 1 auto;
+  width: 10%;
+}
+
+
+.subscription-details {
+  background-color: var(--color-very-pale-blue);
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bright-blue-text {
+  flex: 3 1 auto;
+
+}
+
+
+.bright-blue-underline-text {
+  color: var(--color-bright-blue);
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.bright-blue-underline-text:hover {
+  text-decoration: none;
+  color: var(--color-hover-blue);
+}
+
+/* Card Bottom Section */
+
+.card-body__bottom {
+  display: flex;
+  flex-direction: column;
+  margin: 10% 6%;
+}
+
+.button-text {
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.bright-blue-button {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 14px;
+  background: var(--color-bright-blue);
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.bright-blue-button:hover {
+  background: var(--color-hover-blue);
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0px 7px 7px #b0b0b0;
+}
+
+.light-color-button {
+  color: var(--color-desaturated-blue);
+}
+
+
 
 
 .attribution {
